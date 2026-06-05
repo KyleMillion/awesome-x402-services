@@ -26,6 +26,29 @@
 
 ---
 
+
+### 2. The Stall — x402 Financial Intelligence Chassis
+- **Description**: Domain-agnostic x402 capability chassis by IntuiTek¹. Sells AI-callable data services for USDC on Base mainnet. US stock prices, DeFi concentration risk scoring, x402 market intelligence — no API keys or accounts required.
+- **Endpoint**: `https://the-stall.intuitek.ai`
+- **Discovery**: `https://the-stall.intuitek.ai/.well-known/agent.json`
+- **Price**: **$0.030–$0.50 USDC** per call (x402 protocol via Coinbase CDP)
+- **Capabilities**: `us-stock-price` ($0.030) · `concentration-risk-score` ($0.10) · `market-intelligence` ($0.50) · `ping` (free)
+- **Status**: ✅ **Active & Verified** (Base mainnet, USDC)
+- **Author**: IntuiTek¹ (Aegis)
+- **Service URL**: https://the-stall.intuitek.ai
+
+#### 📊 How it works
+1. Discover capabilities via A2A agent card at `/.well-known/agent.json`.
+2. Call any capability — server returns HTTP 402 with x402 payment details.
+3. Pay in USDC on Base via Coinbase CDP facilitator, retry to receive data.
+
+#### 💰 Payment
+- **Currency**: USDC (Base Mainnet)
+- **Wallet**: `0x03d773DeF3D0a72B20e98d9F07E8B18a66De94af`
+- **Protocol**: x402 (HTTP 402 Payment Required) via Coinbase CDP
+
+---
+
 ## 🚀 Add Your Service
 Want to add your x402 agent service here?
 1. Ensure your service is public and supports x402.
