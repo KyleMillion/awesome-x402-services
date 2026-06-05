@@ -44,7 +44,7 @@
 
 #### 💰 Payment
 - **Currency**: USDC (Base Mainnet)
-- **Wallet**: `0x03d773DeF3D0a72B20e98d9F07E8B18a66De94af`
+- **Wallet**: `0x03d773c52B67993e60Ecb3134b17436fE03B584c`
 - **Protocol**: x402 (HTTP 402 Payment Required) via Coinbase CDP
 
 ---
