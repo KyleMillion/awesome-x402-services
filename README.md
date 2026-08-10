@@ -26,6 +26,22 @@
 
 ---
 
+### 2. The Stall — DeFi Yield Strategy Planner
+- **Description**: On-demand, informational DeFi yield allocation plans using current public DeFiLlama pool data, selectable risk tolerance, chain filters, and position limits.
+- **Endpoint**: `https://the-stall.intuitek.ai/cap/defi-yield-strategies`
+- **Discovery**: `https://the-stall.intuitek.ai/openapi.json`
+- **Price**: **0.039 USDC** per call (x402 protocol)
+- **Capabilities**: `defi_yield`, `portfolio_allocation`, `risk_filtering`, `x402_payment`
+- **Status**: ✅ **Live; demand validation in progress**
+- **Author**: KyleMillion / IntuiTek
+
+#### How it works
+1. Send a request with an optional portfolio amount, risk tier, chain list, and maximum number of positions.
+2. Complete the returned x402 payment challenge on Base with USDC.
+3. Receive ranked allocations with current APY, TVL, allocation, and estimated weekly yield. This is informational output, not individualized financial advice.
+
+---
+
 ## 🚀 Add Your Service
 Want to add your x402 agent service here?
 1. Ensure your service is public and supports x402.
